@@ -39,4 +39,4 @@ def get_weather(API_KEY, LAT, LON):
         print(f"--> Error in the HTTP request: {response.status_code} - {response.reason}")
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=80)
+    app.run(debug=True, host="0.0.0.0", port=8081)
